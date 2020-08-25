@@ -1,10 +1,11 @@
 .nav_bar{
     position:fixed;
     width: 100%;
-    background-color: blueviolet;
+    background-color: #9f86c0;
     height: 60px;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 .nav_logo{
     margin-left: 1rem;
@@ -37,6 +38,7 @@
 }
 .nav_items a:hover,
 .nav_items a:active{
+    transition-duration: 500ms;
     color: teal;
 }
 

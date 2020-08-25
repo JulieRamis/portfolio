@@ -1,0 +1,19 @@
+img{
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .overlay{
+    background-color: rgba(52, 110, 107, 0.384);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .home{
+    height: 100vh;
+    z-index: 200;
+  }
+  
+  
