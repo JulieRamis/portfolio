@@ -13,7 +13,7 @@ const Nav = props => (
             <div className="spacer" />
             <div className="nav_items">
                 <ul>
-                    <li><a href="/">Présentation</a></li>
+                    <li><a href="#link-presentation">Présentation</a></li>
                     <li><a href="/">Portfolio</a></li>
                     <li><a href="/">Contact</a></li>
                 </ul>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Presentation from './Text';
+import TextHome from './Text';
 import './Home.css';
 
 const Home =() =>{
@@ -8,7 +8,7 @@ const Home =() =>{
         <div className="overlay">
             
         </div>
-        <Presentation />
+        <TextHome />
         <img src="./fond.jpg" alt="espace-de-travail" />
         </div>
     )
