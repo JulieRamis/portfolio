@@ -41,7 +41,10 @@
     transition-duration: 500ms;
     color: teal;
 }
-
+.logo{
+    height: 60px;
+    width: 60px;
+}
 @media (max-width:768px){
     .nav_items{
         display: none;

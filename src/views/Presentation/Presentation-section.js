@@ -9,7 +9,7 @@ const PresentationSection =() =>{
             <div id="link-presentation"></div>
                 <div className="presentation">
                 
-                    <h2>Présentation</h2>
+                    <h2>PRESENTATION</h2>
                     <hr></hr>
                     <div className="zone-presentation">
                 

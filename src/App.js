@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './views/Navbar/Navbar';
-import PresentationSection from './views/Presentation-section';
 import Home from './views/Home';
+import PresentationSection from './views/Presentation/Presentation-section';
+import Portfolio from './views/Portfolio';
 import './App.css';
 
 function App () {
@@ -11,6 +12,7 @@ function App () {
       <Navbar />
       <Home />
       <PresentationSection />
+      <Portfolio />
  </main>
   )
  

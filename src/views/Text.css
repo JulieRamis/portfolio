@@ -29,3 +29,8 @@
     margin-bottom: 0;
     font-size: 3em;
 }
+@media(max-width: 769px){
+  .text-home{
+    top: 10%;
+  }
+}

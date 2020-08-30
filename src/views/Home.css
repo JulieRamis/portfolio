@@ -18,5 +18,12 @@ img{
     height: 100vh;
     z-index: 200;
   }
-  
+  @media(max-width: 769px){
+    .home{
+      height: 40vh;
+    }
+    .overlay{
+      height: 40%;
+    }
+  }
   
