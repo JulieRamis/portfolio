@@ -20,10 +20,10 @@ img{
   }
   @media(max-width: 769px){
     .home{
-      height: 40vh;
+      height: 400px;
     }
     .overlay{
-      height: 40%;
+      height: 400px;
     }
   }
   

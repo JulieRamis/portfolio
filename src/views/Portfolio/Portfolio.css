@@ -1,9 +1,6 @@
 #link-portfolio{
     height: 60px;
 }
-.section-portfolio{
-    height: 100vh;
-}
 .zone-portfolio{
     display: flex;
     flex-wrap: wrap;
@@ -33,19 +30,18 @@
 .figcaption-portfolio:hover{
     opacity: 1;
 }
-@media (max-width: 769px){
-    .section-portfolio{
-        height: 200vh;
-    }
-}
-@media (max-width: 500px){
-    .zone-portfolio img, .figcaption-portfolio{
+
+@media(max-width: 500px){
+    .figcaption-portfolio{
         width: 300px;
         height: 190px;
         margin-top: 0;
         border-radius: 20px;
     }
-    .section-portfolio{
-        height: 100vh;
+    .zone-portfolio img{
+        width: 300px;
+        height: 190px;
+        margin-top: 0;
+        border-radius: 20px;
     }
 }

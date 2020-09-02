@@ -1,9 +1,6 @@
 #link-presentation{
     height: 60px;
 }
-.section-presentation{
-    height: 100vh;
-}
 .photo-profil{
     width: 300px;
     height: 300px;
@@ -47,8 +44,5 @@ hr{
     .zone-icon{
         flex-direction: column;
         align-items: center;
-    }
-    .section-presentation{
-        height: 150vh;
     }
 }
