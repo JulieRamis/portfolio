@@ -5,10 +5,10 @@ const Presentation =() =>{
 
     return(
         <div className="text-presentation">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae mauris interdum, volutpat libero quis, hendrerit nunc. </p>
-        <p>Pellentesque tincidunt lorem ac nunc euismod, quis dignissim sapien elementum. Vivamus metus nisi, consectetur ut pretium eu, lacinia a elit.</p> 
-        <p>Nulla sit amet pretium orci, vitae porttitor nunc. Aenean porta risus id pellentesque imperdiet. Nulla hendrerit maximus gravida. Mauris interdum lorem in congue pretium.</p> 
-        <p>Mauris aliquam sapien sed orci lacinia, sed interdum dolor commodo. Pellentesque vitae ex a odio mattis porttitor quis ac purus. Donec nec pharetra magna. </p>
+        <p>Jeune développeuse web, je suis particulièrement attirée par le front qui me permet d’exploiter ma créativité et ma curiosité.</p>
+        <p>J’aime la nouveauté et apprendre, c’est pour cette raison que je continue de me former sur ReactJS.</p> 
+        <p>J’envisage par la suite de compléter ma formation en abordant le TDD et Redux.</p> 
+        <p>Le développement web offre un apprentissage constant, du challenge et le plaisir de résoudre des problèmes, c’est pour toutes ses raisons que j’ai choisis d’en faire mon métier.</p>
         </div>
     )
 };

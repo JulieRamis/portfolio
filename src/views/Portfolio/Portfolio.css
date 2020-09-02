@@ -15,7 +15,7 @@
     margin-top: 50px;
     border-radius: 20px;
 }
-figcaption{
+.figcaption-portfolio{
     background-color: #9f86c0d8;
     width: 500px;
     height: 290px;
@@ -27,17 +27,25 @@ figcaption{
     opacity: 0;
     transition-duration: 500ms;
 }
-figure{
+.figure-portfolio{
     position: relative;
 }
-figcaption:hover{
+.figcaption-portfolio:hover{
     opacity: 1;
 }
+@media (max-width: 769px){
+    .section-portfolio{
+        height: 200vh;
+    }
+}
 @media (max-width: 500px){
-    .zone-portfolio img, figcaption{
+    .zone-portfolio img, .figcaption-portfolio{
         width: 300px;
         height: 190px;
         margin-top: 0;
         border-radius: 20px;
+    }
+    .section-portfolio{
+        height: 100vh;
     }
 }

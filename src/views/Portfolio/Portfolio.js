@@ -10,46 +10,46 @@ const Portfolio =() =>{
                     <h2>MES PROJETS</h2>
                     <hr></hr>
                     <div className="zone-portfolio">
-                        <figure>
+                        <figure className="figure-portfolio">
                             <img src="p1.png" alt="projet-1-web-agency" />
                             <a href="http://webagency.julieramis.fr/">
-                                <figcaption>
+                                <figcaption className="figcaption-portfolio">
                                 <h3>Intégration maquette</h3>
                                 <p>html/css</p>
                                 </figcaption>
                             </a>
                         </figure>
-                        <figure>
+                        <figure className="figure-portfolio">
                             <img src="p2.png" alt="projet-2-ireki" />
                             <a href="http://ireki.julieramis.fr/">
-                                <figcaption>
+                                <figcaption className="figcaption-portfolio">
                                 <h3>Site office du tourisme</h3>
                                 <p>Wordpress</p>
                                 </figcaption>
                             </a>
                         </figure>
-                        <figure>
-                            <img src="p3.png" alt="projet-3-location-de-velo" />
+                        <figure className="figure-portfolio">
+                            <img src="p3.png" alt="projet-3-location-de-velos" />
                             <a href="http://vloc.julieramis.fr/">
-                                <figcaption>
-                                <h3>Site de location de vélo</h3>
+                                <figcaption className="figcaption-portfolio">
+                                <h3>Site de location de vélos</h3>
                                 <p>JavaScript/Bootstrap</p>
                                 </figcaption>
                             </a>
                         </figure>
-                        <figure>
+                        <figure className="figure-portfolio">
                             <img src="p4.png" alt="projet-4-blog" />
                             <a href="https://blog-forteroche.julieramis.fr/">
-                                <figcaption>
+                                <figcaption className="figcaption-portfolio">
                                 <h3>Blog pour un écrivain</h3>
                                 <p>PHP</p>
                                 </figcaption>
                             </a>
                         </figure>
-                        <figure>
+                        <figure className="figure-portfolio">
                             <img src="p5.png" alt="projet-5-smartcooking" />
                             <a href="https://smartcooking.julieramis.fr/">
-                                <figcaption>
+                                <figcaption className="figcaption-portfolio">
                                 <h3>Site planning repas</h3>
                                 <p>Symfony</p>
                                 </figcaption>
